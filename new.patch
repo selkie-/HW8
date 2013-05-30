@@ -1,0 +1,16 @@
+# HG changeset patch
+# User Xin Guo <xuxumiaohaha@gmail.com>
+# Date 1369813357 25200
+# Node ID f228388a34cba38b2ab7bc94f2009287345672f7d
+# Parent  b54233ca672947627aa89b75a9a3cb22914576ed8
+added one more line modification to arith.pyx
+
+diff --git a/sage/rings/arith.py b/sage/rings/arith.py
+--- a/sage/rings/arith.py
++++ b/sage/rings/arith.py
+@@ -1488,6 +1488,7 @@
+ 
+ def gcd(a, b=None, **kwargs):
+     print("hi")
+
+ 
